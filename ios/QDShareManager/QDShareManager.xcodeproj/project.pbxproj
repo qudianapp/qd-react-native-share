@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F91ECD1A21FAE9CD0090E1DC /* QDShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F91ECD1821FAE9CC0090E1DC /* QDShareManager.m */; };
-		F91ECD1B21FAE9CD0090E1DC /* QDShareResp.m in Sources */ = {isa = PBXBuildFile; fileRef = F91ECD1921FAE9CD0090E1DC /* QDShareResp.m */; };
+		F91ECE1121FB199B0090E1DC /* QDShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F91ECE1021FB199B0090E1DC /* QDShareManager.m */; };
+		F91ECE1221FB199B0090E1DC /* QDShareManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F91ECE0F21FB199B0090E1DC /* QDShareManager.h */; };
+		F91ECE1A21FB1A0F0090E1DC /* QDShareResp.m in Sources */ = {isa = PBXBuildFile; fileRef = F91ECE1821FB1A0F0090E1DC /* QDShareResp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F91ECCF421FABEEB0090E1DC /* CopyFiles */ = {
+		F91ECE0A21FB199B0090E1DC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				F91ECE1221FB199B0090E1DC /* QDShareManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F91ECCF621FABEEB0090E1DC /* libQDShareManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQDShareManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F91ECD1621FAE9CC0090E1DC /* QDShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDShareManager.h; sourceTree = "<group>"; };
-		F91ECD1721FAE9CC0090E1DC /* QDShareResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDShareResp.h; sourceTree = "<group>"; };
-		F91ECD1821FAE9CC0090E1DC /* QDShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDShareManager.m; sourceTree = "<group>"; };
-		F91ECD1921FAE9CD0090E1DC /* QDShareResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDShareResp.m; sourceTree = "<group>"; };
+		F91ECE0C21FB199B0090E1DC /* libQDShareManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQDShareManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91ECE0F21FB199B0090E1DC /* QDShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDShareManager.h; sourceTree = "<group>"; };
+		F91ECE1021FB199B0090E1DC /* QDShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDShareManager.m; sourceTree = "<group>"; };
+		F91ECE1821FB1A0F0090E1DC /* QDShareResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDShareResp.m; sourceTree = "<group>"; };
+		F91ECE1921FB1A0F0090E1DC /* QDShareResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDShareResp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F91ECCF321FABEEB0090E1DC /* Frameworks */ = {
+		F91ECE0921FB199B0090E1DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,29 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F91ECCED21FABEEB0090E1DC = {
+		F91ECE0321FB199B0090E1DC = {
 			isa = PBXGroup;
 			children = (
-				F91ECCF821FABEEB0090E1DC /* QDShareManager */,
-				F91ECCF721FABEEB0090E1DC /* Products */,
+				F91ECE0E21FB199B0090E1DC /* QDShareManager */,
+				F91ECE0D21FB199B0090E1DC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F91ECCF721FABEEB0090E1DC /* Products */ = {
+		F91ECE0D21FB199B0090E1DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F91ECCF621FABEEB0090E1DC /* libQDShareManager.a */,
+				F91ECE0C21FB199B0090E1DC /* libQDShareManager.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F91ECCF821FABEEB0090E1DC /* QDShareManager */ = {
+		F91ECE0E21FB199B0090E1DC /* QDShareManager */ = {
 			isa = PBXGroup;
 			children = (
-				F91ECD1621FAE9CC0090E1DC /* QDShareManager.h */,
-				F91ECD1821FAE9CC0090E1DC /* QDShareManager.m */,
-				F91ECD1721FAE9CC0090E1DC /* QDShareResp.h */,
-				F91ECD1921FAE9CD0090E1DC /* QDShareResp.m */,
+				F91ECE0F21FB199B0090E1DC /* QDShareManager.h */,
+				F91ECE1021FB199B0090E1DC /* QDShareManager.m */,
+				F91ECE1921FB1A0F0090E1DC /* QDShareResp.h */,
+				F91ECE1821FB1A0F0090E1DC /* QDShareResp.m */,
 			);
 			path = QDShareManager;
 			sourceTree = "<group>";
@@ -72,13 +74,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F91ECCF521FABEEB0090E1DC /* QDShareManager */ = {
+		F91ECE0B21FB199B0090E1DC /* QDShareManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F91ECCFF21FABEEB0090E1DC /* Build configuration list for PBXNativeTarget "QDShareManager" */;
+			buildConfigurationList = F91ECE1521FB199B0090E1DC /* Build configuration list for PBXNativeTarget "QDShareManager" */;
 			buildPhases = (
-				F91ECCF221FABEEB0090E1DC /* Sources */,
-				F91ECCF321FABEEB0090E1DC /* Frameworks */,
-				F91ECCF421FABEEB0090E1DC /* CopyFiles */,
+				F91ECE0821FB199B0090E1DC /* Sources */,
+				F91ECE0921FB199B0090E1DC /* Frameworks */,
+				F91ECE0A21FB199B0090E1DC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -86,54 +88,54 @@
 			);
 			name = QDShareManager;
 			productName = QDShareManager;
-			productReference = F91ECCF621FABEEB0090E1DC /* libQDShareManager.a */;
+			productReference = F91ECE0C21FB199B0090E1DC /* libQDShareManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F91ECCEE21FABEEB0090E1DC /* Project object */ = {
+		F91ECE0421FB199B0090E1DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "林泽华";
 				TargetAttributes = {
-					F91ECCF521FABEEB0090E1DC = {
+					F91ECE0B21FB199B0090E1DC = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = F91ECCF121FABEEB0090E1DC /* Build configuration list for PBXProject "QDShareManager" */;
+			buildConfigurationList = F91ECE0721FB199B0090E1DC /* Build configuration list for PBXProject "QDShareManager" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F91ECCED21FABEEB0090E1DC;
-			productRefGroup = F91ECCF721FABEEB0090E1DC /* Products */;
+			mainGroup = F91ECE0321FB199B0090E1DC;
+			productRefGroup = F91ECE0D21FB199B0090E1DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F91ECCF521FABEEB0090E1DC /* QDShareManager */,
+				F91ECE0B21FB199B0090E1DC /* QDShareManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F91ECCF221FABEEB0090E1DC /* Sources */ = {
+		F91ECE0821FB199B0090E1DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F91ECD1B21FAE9CD0090E1DC /* QDShareResp.m in Sources */,
-				F91ECD1A21FAE9CD0090E1DC /* QDShareManager.m in Sources */,
+				F91ECE1A21FB1A0F0090E1DC /* QDShareResp.m in Sources */,
+				F91ECE1121FB199B0090E1DC /* QDShareManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F91ECCFD21FABEEB0090E1DC /* Debug */ = {
+		F91ECE1321FB199B0090E1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +194,7 @@
 			};
 			name = Debug;
 		};
-		F91ECCFE21FABEEB0090E1DC /* Release */ = {
+		F91ECE1421FB199B0090E1DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +247,7 @@
 			};
 			name = Release;
 		};
-		F91ECD0021FABEEB0090E1DC /* Debug */ = {
+		F91ECE1621FB199B0090E1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		F91ECD0121FABEEB0090E1DC /* Release */ = {
+		F91ECE1721FB199B0090E1DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -270,25 +272,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F91ECCF121FABEEB0090E1DC /* Build configuration list for PBXProject "QDShareManager" */ = {
+		F91ECE0721FB199B0090E1DC /* Build configuration list for PBXProject "QDShareManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F91ECCFD21FABEEB0090E1DC /* Debug */,
-				F91ECCFE21FABEEB0090E1DC /* Release */,
+				F91ECE1321FB199B0090E1DC /* Debug */,
+				F91ECE1421FB199B0090E1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F91ECCFF21FABEEB0090E1DC /* Build configuration list for PBXNativeTarget "QDShareManager" */ = {
+		F91ECE1521FB199B0090E1DC /* Build configuration list for PBXNativeTarget "QDShareManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F91ECD0021FABEEB0090E1DC /* Debug */,
-				F91ECD0121FABEEB0090E1DC /* Release */,
+				F91ECE1621FB199B0090E1DC /* Debug */,
+				F91ECE1721FB199B0090E1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F91ECCEE21FABEEB0090E1DC /* Project object */;
+	rootObject = F91ECE0421FB199B0090E1DC /* Project object */;
 }
