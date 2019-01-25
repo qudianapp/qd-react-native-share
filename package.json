@@ -3,7 +3,7 @@
   "peerDependencies": {
     "react-native": "^0.55.4"
   },
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "分享组件封装",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,13 @@
     "share"
   ],
   "author": "liujunrong",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudianapp/qd-react-native-share.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qudianapp/qd-react-native-share/issues"
+  },
+  "homepage": "https://github.com/qudianapp/qd-react-native-share#readme"
 }
